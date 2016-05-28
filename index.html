@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Frizerski salon Mirko</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- NAVIGATION BAR - NOV DEL -->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Hairdresser Mirko </a>
+        </div>
+          
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+          <input type="text" class="form-control" placeholder="Iskalnik">
+          </div>
+        </form>
+          
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Kaj nudimo</a></li>
+            <li><a href="#">Naroči se</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#contact" data-toggle="modal">O nas</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+        
+        
+    <!-- CAROUSEL - NOV DEL -->    
+        
+      <div id="mycarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#mycarousel" data-slide-to="0"></li>
+          <li data-target="#mycarousel" data-slide-to="1" class="active"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+        </ol>
+          
+        <div class="carousel-inner">
+          <div class="item">
+            <img src="http://www.letimelessbeaute.com/images/header/salonHeader9.jpg" class="img-responsive" alt="Cut" style="width:100%; height:400px">
+            </div>
+            <div class="item active">
+            <img src="http://www.spoiledhairdressers.com/sites/default/files/slideshow/header-service-edit.jpg" class="img-responsive" alt="Cut" style="width:100%; height:400px">
+            </div>
+            <div class="item">
+            <img src="http://www.letimelessbeaute.com/images/header/salonHeader5.jpg" class="img-responsive" alt="Cut"  style="width:100%; height:400px">
+            </div>
+          </div>
+        <a class="carousel-control left" href="#mycarousel" data-slide="prev">
+          <span class="icon-prev"></span> </a>
+          <a class="carousel-control right" href="#mycarousel" data-slide="next">
+          <span class="icon-next"></span> </a>
+          
+        </div>
+        
+   
+    <!-- TRI SLIKE - NOV DEL -->    
+        
+    <div class="container">
+        
+        <span class="text-center"><h2>Kaj nudimo</h2></span>
+        
+         <div class="row">
+             <div class="col-sm-6 col-md-4">
+                 <div class="thumbnail">
+                     <div class="caption">
+                         <span class="pull-left"><h3>Nega las</h3></span>
+                         <span class="pull-right"><img src="http://popham.com/wp-content/uploads/2014/07/exclaim-icon-300x300.png" alt="care" class="img-circle" style="height: 50px;"></span>
+                     </div>
+                     <img src="http://www.premiersoftware.co.uk/blog/wp-content/uploads/2016/04/bigstock-beauty-salon-hair-care-and-pe-95950904.jpg" style="height:212.5px; width:100%" alt="nega">
+      
+                 </div>
+             </div>
+        
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                     <div class="caption">
+                          <span class="pull-left"><h3>Barvanje</h3></span>
+                         <span class="pull-right"><img src="http://popham.com/wp-content/uploads/2014/07/brush-icon-300x300.png" alt="barvanje" class="img-circle" style="height: 50px;"></span>
+                     </div>
+                     <img src="http://www.modernsalon.com/sites/salon/files/box-hair-color.jpg" alt="barvanje" style="width: 100%; height:212.5px;">
+                </div>
+            </div>
+             
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <span class="pull-left"><h3>Striženje</h3></span>
+                         <span class="pull-right"><img src="http://popham.com/wp-content/uploads/2014/07/scissors-icon-300x300.png" class="img-responsive" alt="striženje" class="img-circle" style="height: 50px;"></span>
+                    </div>
+                    <img src="http://www.shemazing.net/wp-content/uploads/2015/11/hair-cut.jpg" alt="striženje" style="height: 212.5px; width: 100%;">
+                </div>
+            </div>
+        </div>    
+        
+        
+    </div>   
+        
+    
+    <!-- NAROČI SE - NOV DEL -->    
+        
+   <div class="container">
+        <span class="text-center"><h2>Naroči se</h2></span>
+        
+   <div class="row">
+        <div class="col-md-6" style="margin-top:2px;">
+        <form class="form-horizontal">
+            <div class="form-group"><input type="text" class="form-control" placeholder="Ime in priimek" style="width: 400px; margin-left:100px;"></div>
+            <div class="form-group"><input type="text" class="form-control" placeholder="Tel. številka" style="width: 400px; margin-left:100px;"></div>
+            <div class="form-group"><input type="text" class="form-control" placeholder="Termin" style="width: 400px; margin-left:100px;"></div>
+            <div class="form-group"><textarea class="form-control" rows="5" placeholder="Ostalo (želje glede pričeske itd.)" style="width: 400px; margin-left:100px;"></textarea>
+            </div>
+        
+        <div class="form-group">    
+            <div class="checkbox" style="margin-left:100px;">
+                <label>
+                   <input type="checkbox"> Strinjam se, da je Mirko najboljši frizer.
+                </label>
+            </div>
+        </div>
+            
+        <div class="form-group text-center">
+             <button type="submit" class="btn btn-default" style="width: 100px;">Pošlji</button>
+        </div>
+
+        </form>
+        </div>
+        
+   
+
+   <div class="container">   
+       <div class="col-md-6">
+   <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th class="active">Dan</th>
+        <th class="active">Delovne ure</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ponedeljek</td>
+        <td>8.00-16.00</td>
+      </tr>
+        <tr>
+        <td>Torek</td>
+        <td>10.00-18.00</td>
+      </tr>
+        <tr>
+        <td>Sreda</td>
+        <td>8.00-16.00</td>
+      </tr>
+        <tr>
+        <td>Četrtek</td>
+        <td>8.00-16.00</td>
+      </tr>
+        <tr>
+        <td>Petek</td>
+        <td>12.00-20.00</td>
+      </tr>
+        <tr>
+        <td>Sobota</td>
+        <td>8.00-16.00</td>
+      </tr>
+        <tr>
+        <td>Nedelja</td>
+        <td>8.00-12.00</td>
+      </tr>
+      
+      </tr>
+    </tbody>
+  </table>
+       <p>*Ob praznikih velja nedeljski urnik</p>
+     </div>
+  </div>
+  </div>   
+  </div>
+        
+<!-- FAQ - NOV DEL - PANEL -->
+
+<div class="container">
+    <span class="text-center"><h2>FAQ (pogosta vprašanja)</h2></span>
+    <div class="panel panel-default">
+         <div class="panel-heading">Kakšen je salon in ekipa?</div>
+         <div class="panel-body">
+              <p>Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.</p>
+              <p>Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje z profesionalno lasno kozmetiko Schwarzkopf, v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o smo pa letos septembra začeli delati z profesionalno lasno kozmetiko Indola, katero oni distrubirajo.</p>
+         </div>
+
+    </div>
+</div>
+
+<div class="container">
+    <div class="panel panel-default">
+         <div class="panel-heading">Ali sprejemate hišne ljubljenčke?</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="panel panel-default">
+         <div class="panel-heading">Imate kakšne nagrade s tekmovanj?</div>
+    </div>
+</div>
+ 
+
+<!-- FOOTER - NOV DEL -->
+
+<footer>
+ <div class="container">
+   <div class="row">     
+     <div class="col-sm-4  ">
+         <div class="small center-to-left ">
+             <h4>Kontakt</h4>
+             <p>Frizer Mirko s.p.</p>
+             <p>Davčna št.: 324324234</p>
+             <p>Frizerska ulica 5, 1000 Ljubljana</p>
+             <p>Tel.: 01/34345346</p>
+             <p>Email: frizer.mirko@f-mirko.com</p>
+         </div>
+   </div>
+
+    <div class="col-sm-4">
+         <div class="text-center">
+           <img src="http://www.hairvanity.co.uk/images/logo.png?v=8aa996311cf7954b32a98ff97c997e17" style="width: 150px; height:170px">
+         </div>
+     </div>
+
+     <div class="col-sm-4 ">
+        <div class="small text-center">
+       <h4>Navigacija</h4>
+            <p><a href="#">Kaj nudimo</a></p>
+            <p><a href="#">Naroči se</a></p>
+            <p><a href="#">Pogosta vprašanja</a></p>
+            <p><a href="#">O nas</a></p>
+     </div>
+     </div>
+ </div>
+ </div>
+</footer>
+
+<!-- MODEL POPUP -->
+    
+<div class="modal fade" id="contact" role="dialog">
+     <div class="modal-dialog">
+         <div class="modal-content">
+              <div class="modal-header">
+             <h3>O NAS</h3>
+    
+              <p>Smo relativno mlad kolektiv, vedno nasmejani, prijazni. Imamo dolgoletne izkušnje z profesionalno lasno kozmetiko Schwarzkopf, v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o smo pa letos septembra začeli delati z profesionalno lasno kozmetiko Indola, katero oni distrubirajo.</p>
+              <p id="modaltext">Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo pričeske z občutkom in domišljijo.</p>
+             <img src="http://www.biihairsalon.com/wp-content/uploads/2012/08/Salon_Banner.jpg" style="width: 570px; height: 230px;" class="img-responsive">   
+            <button type="submit" class="btn btn-default" id="zapri" style="width: 100px;">Zapri</button>
+                  
+             </div>
+         </div>
+    </div>
+</div>
+
+    
+    </body>
+
+</html>
